@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Index 
+            </h1>
+            <h1 class="title">
+                ¿Qué es un contenedor?
+            </h1>
+            <p>
+                Se definen como unidades estandarizadas que empaquetan todo el código al igual que las dependencias que estas usan, lo que hace que las aplicaciones sea fáciles de ejecutar de una forma rápida y confiable desde diferentes sistemas y en diferentes maquinas.
+            </p>
+            <br>
+            <a href="{% url 'docker' %}">
+                <button class="button is-primary" type="submit">Docker</button>
+            </a>
+            <br>
+            <br>
+            <a href="{% url 'ubuntu' %}">
+                <button class="button is-primary">Ubuntu</button>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
